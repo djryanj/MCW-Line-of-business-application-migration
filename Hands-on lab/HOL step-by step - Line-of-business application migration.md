@@ -118,8 +118,6 @@ Refer to the [Before the HOL - Line-of-business application migration](./Before%
 
 **IMPORTANT: Allow at least 60 minutes to deploy the on-premises environment before you start the lab.**
 
-# -- START HERE --
-
 ## Exercise 1: Discover and assess the on-premises environment
 
 Duration: 60 minutes
@@ -352,8 +350,6 @@ In this task, you will use Azure Migrate to create a migration assessment for th
 #### Task summary 
 
 In this task you created and configured an Azure Migrate migration assessment.
-
-# -- SKIP TO [Exercise 2: Migrate the Application Database](#exercise-2-migrate-the-application-database), RESUME HERE IF TIME PERMITS --
 
 ### Task 5: Configure dependency visualization
 
