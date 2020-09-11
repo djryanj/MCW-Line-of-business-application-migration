@@ -723,9 +723,12 @@ We'll start by creating the private endpoint that allows the DMS to access the d
 
 2. Under **Security**, select **Firewalls and virtual networks**. Note that there is no access granted to the database public IP address.
 
-    ![Screenshot showing the link to add an existing virtual network to the SQL database network security settings.](images/Exercise2/db-network.png)
+    ![Screenshot showing the existing firewall and virtual network access rules for the database server.](images/Exercise2/db-network.png)
 
 3. Select **Private endpoint connections** under **Security**, then **+ Private endpoint**.
+
+
+    ![Screenshot showing the private endpoints for the database server.](images/Exercise2/db-network-2.png)
 
 4. On the **Basics** tab that appears, enter the following configuration then select **Next: Resource**. 
 
@@ -1000,11 +1003,11 @@ You will also configure a private endpoint in this network for the SQL Database.
 
     ![Screenshot of the Azure portal showing the create virtual network blade 'IP Addresses' tab.](images/Exercise3/create-vnet-3.png)
 
-4. Navigate to the **SmartHotelHostDBRG** resource group, and then to the database server. Under **Security**, select **Private endpoint connections**, then select **+ Private endpoint**.
+4. Navigate to the **SmartHotelDBRG** resource group, and then to the database server. Under **Security**, select **Private endpoint connections**, then select **+ Private endpoint**.
 
 5. On the **Basics** tab, enter the following configuration then select **Next: Resource**:
 
-    - Resource group: **SmartHotelDBRG**
+    - Resource group: **SmartHotelRG**
   
     - Name: **SmartHotel-DB-Endpoint**
   
